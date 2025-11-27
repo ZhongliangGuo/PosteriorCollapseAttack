@@ -21,6 +21,7 @@ while Objective 2 disrupts unauthorized editing by maximizing deviation from the
 Both objectives prevent infringer-desired manipulations, with Objective 1 causing some distance between $f({x}+{\delta})$ and ${x}$ as a side effect.
 
 Our method can achieve both protection objectives by a unified loss function with an adjustable hyperparameter:
+
 $$
 \mathcal{L}_{\text{PCA}}({x}) = \frac{1}{2}\sum_{i=1}^{d}\left(-\ln{\sigma}_i^2 -1 + \frac{{\mu}_i^2+{\sigma}_i^2}{v}\right).
 $$
@@ -95,3 +96,4 @@ Consider cite us if you find our paper is useful in your research :).
 }
 
 ```
+
