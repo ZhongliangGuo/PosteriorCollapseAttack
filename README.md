@@ -4,12 +4,15 @@ This repo is for the method **Posterior Collapse Attack** of paper titled [A Gra
 Editig by Posterior Collapse](https://arxiv.org/abs/2408.10901).
 
 To prevent the image editing by Latent Diffusion Model (LDM), there are two protection objectives:
+
 $$\text{Objective 1:}\quad \min_{\delta} d(f(x+\delta),x)\ \ \ \ \ \ \quad
        s.t.\,
        \|\delta\|_p \leq \epsilon,$$
+       
 $$\text{Objective 2:}\quad \max_{{\delta}} d(f({x}+{\delta}),f({x}))\quad
        s.t.\,
        \|{\delta}\|_{p} \leq \epsilon,$$
+       
 where $x$ is the image will be protected; $\delta$ is the protective perturbation; $f(\cdot)$ is a kind of LDM-based image editing method;
 $d(\cdot)$ measures the perceptual distance between two inputs;
 $\| \cdot \|_p$ applies the $\ell_\infty$ norm constraint to maintain visual integrity of the adversarial sample.
@@ -90,4 +93,5 @@ Consider cite us if you find our paper is useful in your research :).
   journal={arXiv preprint arXiv:2408.10901},
   year={2024}
 }
+
 ```
