@@ -7,15 +7,15 @@ To prevent the image editing by Latent Diffusion Model (LDM), there are two prot
 
 $$\text{Objective 1:}\quad \min_{\delta} d(f(x+\delta),x)\ \ \ \ \ \ \quad
        s.t.\,
-       \|\delta\|_p \leq \epsilon,$$
+       \Vert\delta\Vert_p \leq \epsilon,$$
        
 $$\text{Objective 2:}\quad \max_{{\delta}} d(f({x}+{\delta}),f({x}))\quad
        s.t.\,
-       \|{\delta}\|_{p} \leq \epsilon,$$
+       \Vert{\delta}\Vert_{p} \leq \epsilon,$$
        
 where $x$ is the image will be protected; $\delta$ is the protective perturbation; $f(\cdot)$ is a kind of LDM-based image editing method;
 $d(\cdot)$ measures the perceptual distance between two inputs;
-$\| \cdot \|_p$ applies the $\ell_\infty$ norm constraint to maintain visual integrity of the adversarial sample.
+$\Vert\cdot\Vert_p$ applies a constraint to maintain visual integrity of the adversarial sample.
 Intuitively, Objective 1 preserves original image content by keeping the edited adversarial sample similar to ${x}$,
 while Objective 2 disrupts unauthorized editing by maximizing deviation from the expected output $f({x})$.
 Both objectives prevent infringer-desired manipulations, with Objective 1 causing some distance between $f({x}+{\delta})$ and ${x}$ as a side effect.
@@ -96,4 +96,5 @@ Consider cite us if you find our paper is useful in your research :).
 }
 
 ```
+
 
