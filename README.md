@@ -1,7 +1,7 @@
 # Posterior Collapse Attack
 
 This repo is for the method **Posterior Collapse Attack** of paper titled [A Gray-box Attack against Latent Diffusion Model-based Image
-Editig by Posterior Collapse](https://arxiv.org/abs/2408.10901), which is published in the IEEE Transactions on Information Forensics and Security (IEEE T-IFS).
+Editig by Posterior Collapse](https://doi.org/10.1109/TIFS.2025.3639957), which is published in the IEEE Transactions on Information Forensics and Security (IEEE T-IFS).
 
 To prevent the image editing by Latent Diffusion Model (LDM), there are two protection objectives:
 
@@ -96,6 +96,7 @@ Consider cite us if you find our paper is useful in your research :).
 }
 
 ```
+
 
 
 
