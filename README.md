@@ -88,14 +88,17 @@ python main.py --dataset_path "/path-to/imagenet_1k_attack/data" \
 ## Citation
 Consider cite us if you find our paper is useful in your research :).
 ```
-@article{guo2024gray,
-  title={A gray-box attack against latent diffusion model-based image editing by posterior collapse},
-  author={Guo, Zhongliang and Lei, Chun Tong and Fang, Lei and Zhao, Shuai and Qian, Yifei and Lin, Jingyu and Wang, Zeyu and Chen, Cunjian and Arandjelovi{\'c}, Ognjen and Lau, Chun Pong},
-  journal={arXiv preprint arXiv:2408.10901},
-  year={2024}
+@ARTICLE{guo2025gray,
+  author={Guo, Zhongliang and Tong Lei, Chun and Fang, Lei and Zhao, Shuai and Qian, Yifei and Lin, Jingyu and Wang, Zeyu and Chen, Cunjian and Arandjelović, Ognjen and Pong Lau, Chun},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={A Gray-Box Attack Against Latent Diffusion Model-Based Image Editing by Posterior Collapse}, 
+  year={2025},
+  volume={20},
+  number={},
+  pages={12918-12933}
 }
-
 ```
+
 
 
 
